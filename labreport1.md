@@ -1,16 +1,24 @@
-What the working directory was when the command was run
-A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
-Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error.
-
-
 ![Image](cdNoArgs.png)
 Example of the `cd` command in the lecture1 directory with no arguments
+
+When cd is executed without arguments, the user is returned to the home directory.
+
+This output is not an error.
 
 ![Image](cdPathDirectory.png)
 Example of the `cd` command in the home directory with lecture1 as the argument
 
+Changes the directory from the home directory to the lecture1 directory.
+
+This output is not an error.
+
+
 ![Image](cdPathFile.png)
 Example of the `cd` command in the messages directory with en-us.txt as the argument
+
+Attempts to change directory to the file en-us.txt and throws an error due to it not being a directory.
+
+This output is an error as there is no collection of files or directories inside a file.
 
 ![Image](lsNoArgs.png)
 Example of the `ls` command in the home directory with no argument
