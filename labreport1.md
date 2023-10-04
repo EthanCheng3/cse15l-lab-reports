@@ -4,14 +4,14 @@ Indicate whether the output is an error or not, and if it’s an error, explain 
 
 
 ![Image](cdNoArgs.png)
-Example of the 
-'''console
-cd
-''' command on the home directory with no arguments
+Example of the `cd` command on the home directory with no arguments
 
 ![Image](cdPathDirectory.png)
+Example of the `cd` command on the home directory with lecture1 as the argument
 
 ![Image](cdPathFile.png)
+Example of the `cd` command on the messages directory with en-us.txt as the argument
+
 
 ![Image](lsNoArgs.png)
 
