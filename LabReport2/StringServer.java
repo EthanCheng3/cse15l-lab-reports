@@ -1,6 +1,5 @@
 import java.io.IOException;
 import java.net.URI;
-import java.util.ArrayList;
 
 class Handler implements URLHandler {
     // StringList to be added to by queries
@@ -11,7 +10,7 @@ class Handler implements URLHandler {
         if (url.getPath().contains("/add-message")) {
             String[] parameters = url.getQuery().split("=");
             if (parameters[0].equals("s")) {
-                message[0] += sequenceNumber[0]++ + "\n" + parameters[1] + "\n";
+                message[0] += sequenceNumber[0]++ + ". "  + parameters[1] + "\n";
                 }
             return message[0];
 
