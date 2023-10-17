@@ -26,3 +26,12 @@ When the first parameter is s, the second parameter which is `How are you` is us
 This will add to the String `message` the sequence number, which in this request is `2`, a `. `, the second parameter `Hello`, and ending it with a new line `\n`
 
 SequenceNumber gets updated to 2, so the next request will give 3
+
+![Image](privateKey.png)
+Private key path
+
+![Image](publicKey.png)
+Public key path
+
+![Image](loginWithNoPassword.png)
+Login without password prompt
