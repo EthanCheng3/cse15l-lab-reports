@@ -35,3 +35,5 @@ Public key path
 
 ![Image](loginWithNoPassword.png)
 Login without password prompt
+
+While I have create web servers on my home computer and macbook on a locat host, from the Week 2 Lab, I learned how to connect to a remote server and connecting to that web server. Continuing from what I learned from week 2 Lab, week 3 Lab taught me how to set up SSH Keys for easy access. This allows me to connect to my remote server without having to enter a password everytime by giving the remote server a key to look for when I connect. I also learned how to use `scp` to safely copy files from my local computer to the remote server.
