@@ -1,4 +1,5 @@
 ![Image](lab4bug.png)
+
 From Lab 4, reverseInPlace method of class ArrayExamples
 
 A failure-inducing input for the buggy program
