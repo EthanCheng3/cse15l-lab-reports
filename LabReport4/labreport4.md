@@ -17,11 +17,17 @@ Edit the code file to fix the failing test
 ![Image](vim.png)
 
 I accessed the java file using `vim ListExamples.java`
+
 Then I typed `43j` to move to the 44th line
+
 Afterwards, I used `e` to move the end of the first word
+
 press `s` in normal mode to delete the 1 in `index1`
+
 press `2` to write a 2 to after `index`
+
 press escape to exit insert mode
+
 type :wq! to save the changes
 
 Run the tests, demonstrating that they now succeed
@@ -34,4 +40,5 @@ Commit and push the resulting change to your Github account (you can pick any co
 ![Image](gitpush.png)
 
 Committed the changes using `git commit -a`
+
 Pushed the changes to GitHub using `git push`
