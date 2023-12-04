@@ -19,7 +19,7 @@ Edit the code file to fix the failing test
 
 I accessed the java file using `vim ListExamples.java`
 Sequence of key presses
-`43j\n\e\ns\nbackspace\n\n2\nesc\n:wq!`
+`43j e s backspace 2 esc :wq!`
 
 Then I typed `43j` to move to the 44th line
 
