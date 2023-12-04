@@ -1,4 +1,4 @@
-Log into ieng6
+Log into ieng6 using `ssh cs15lfa23na@ieng6.ucsd.edu`
 ![Image](sshieng6.png)
 
 I typed in `history` and copied the last time I used `ssh` using `Command-C` and `Command-V`
@@ -6,7 +6,7 @@ I typed in `history` and copied the last time I used `ssh` using `Command-C` and
 Clone your fork of the repository from your Github account (using the SSH URL)
 ![Image](gitclone.png)
 
-I cloned my fork of the repository using `git clone`
+I cloned my fork of the repository using `git clone git@github.com:EthanCheng3/lab7.git`
 
 Run the tests, demonstrating that they fail
 ![Image](bash1.png)
@@ -16,7 +16,10 @@ I ran the tests using `bash test.sh`
 Edit the code file to fix the failing test
 ![Image](vim.png)
 
+
 I accessed the java file using `vim ListExamples.java`
+Sequence of key presses
+`43j\n\e\ns\nbackspace\n\n2\nesc\n:wq!`
 
 Then I typed `43j` to move to the 44th line
 
@@ -39,6 +42,6 @@ Commit and push the resulting change to your Github account (you can pick any co
 ![Image](gitcommit.png)
 ![Image](gitpush.png)
 
-Committed the changes using `git commit -a`
+Committed the changes using `git commit -a` (Didn't need to use git add since `-a` option with git commit stages all changes)
 
 Pushed the changes to GitHub using `git push`
